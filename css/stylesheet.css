@@ -1,0 +1,75 @@
+body {
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    color: #888888;
+    font-size: 16px;
+}
+.navbar{
+    height: 80px;
+    background-color: #fff;
+}
+.navbar-default img {
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+.navbar-brand{
+    padding: 2px;   
+    display: inline;
+}
+.navbar-brand span{
+    padding: 30px 0;
+    float: right;
+    color: #056ece;
+}
+.navbar-nav li{
+    padding: 30px 0;
+}
+section{
+    padding: 50px;
+}
+.title-area {
+    display: inline;
+    float: left;
+    padding: 0 150px;
+    text-align: center;
+    width: 100%;
+}
+.title-area .title {
+    color: #056ece;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.title-area .line {
+    background-color: #777;
+    display: inline-block;
+    height: 2px;
+    width: 60px;
+    transition: 1s;
+}
+.title-area p {
+    color: #777777;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.title-area:hover>.line{
+    width: 120px;
+    background-color: #056ece;
+}
+#about img{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#goals{
+    background-color: #f7f7f7;
+}
+#goals i{
+    font-size: 40px;
+    color: #056ece;
+}
+#goals h4{
+    font-size: 25px;
+    color: #056ece;
+}
